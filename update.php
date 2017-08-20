@@ -73,7 +73,7 @@ function goBack() {
                       <?php
 require 'connection.php';
 $conn    = Connect();
-$sql = "SELECT * FROM student where name !='' ORDER BY id ";
+$sql = "SELECT * FROM student where name !='' ORDER BY id DESC ";
 //$rs_result = $conn->query($sql); 
 $query = mysqli_query($conn, $sql);
 
