@@ -48,18 +48,18 @@
                       <form action="thankyou.php" method="post">
                         <h2>  <span class="red"><strong>Contact US</strong></span></h2>
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Enter your Name...">
+                        <input type="text" id="name" name="Name" placeholder="Enter your Name...">
                         
 						<label for="email">Email</label>
-                        <input type="text" id="email" name="email" placeholder="Enter your Email...">
+                        <input type="text" id="email" name="Email" placeholder="Enter your Email...">
 						<label for="add">Address</label>
-                        <input type="text" id="add" name="add" placeholder="Enter your Address...">
+                        <input type="text" id="add" name="Address" placeholder="Enter your Address...">
 						<label for="city">City</label>
-                        <input type="text" id="city" name="city" placeholder="Enter your City...">
+                        <input type="text" id="city" name="City" placeholder="Enter your City...">
 						<label for="state">State</label>
-                        <input type="text" id="state" name="state" placeholder="Enter your State...">
+                        <input type="text" id="state" name="State" placeholder="Enter your State...">
                         <label for="feedback">Comments</label>
-                        <input type="text" id="feedback" name="feedback" placeholder="Enter your Comments...">
+                        <input type="text" id="feedback" name="Feedback" placeholder="Enter your Comments...">
                         
                         <button type="submit" value="submit">Submit</button>
                     </form>
